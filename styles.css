@@ -5,18 +5,10 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Grape Nuts", cursive;
-  background-color: #eee;
-  text-align: center;
-  padding: 4em 1em;
-  height: 100%;
-}
 
 .gallery {
   display: grid;
-  width: 100%;
-  max-width: 1002px;
+
   grid-gap: 50px;
   grid-template-columns: repeat(auto-fit, 300px);
   grid-template-rows: auto;
@@ -29,22 +21,22 @@ figure {
   perspective: 900px;
 }
 figure:nth-child(1) {
-  --imageUrl: url("/photos/IMG-20230610-WA0014.jpg");
+  --imageUrl: url("/photos/image\ \(6\).jpg");
 }
 figure:nth-child(2) {
-  --imageUrl: url("/photos/IMG_20230113_102115-ANIMATION.gif");
+  --imageUrl: url("/photos/image\ \(7\).jpg");
 }
 figure:nth-child(3) {
-  --imageUrl: url("https://assets.codepen.io/652/kabo-NjWZ07sPEJE-unsplash.jpg");
+  --imageUrl: url("/photos/image\ \(14\).jpg");
 }
 figure:nth-child(4) {
-  --imageUrl: url("https://assets.codepen.io/652/giacomo-lucarini-7M0SG3ZKdlE-unsplash.jpg");
+  --imageUrl: url("/photos/image\ \(4\).jpg");
 }
 figure:nth-child(5) {
-  --imageUrl: url("https://assets.codepen.io/652/sergey-semin-Y0WXj3xqJz0-unsplash.jpg");
+  --imageUrl: url("/photos/image\ \(9\).jpg");
 }
 figure:nth-child(6) {
-  --imageUrl: url("https://assets.codepen.io/652/jordan-bigelow-X5VoG4MA5aI-unsplash.jpg");
+  --imageUrl: url("/photos/image\ \(5\).jpg");
 }
 figure img {
   width: 100%;
@@ -497,7 +489,7 @@ figure img {
   padding-inline: 100px 25px;
   z-index: -1;
   font-size: 32px;
-  width: 100%;
+  width: 200px;
   height: 100%;
 }
 .imageRoll > figcaption strong {
