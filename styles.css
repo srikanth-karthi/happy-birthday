@@ -8,7 +8,6 @@
 
 .gallery {
   display: grid;
-
   grid-gap: 50px;
   grid-template-columns: repeat(auto-fit, 300px);
   grid-template-rows: auto;
@@ -48,6 +47,7 @@ figure img {
   height: 300px;
   background-color: #fff;
   box-shadow: 1em 0.5em 2em rgba(17, 34, 51, 0.2666666667), 0 0 5em rgba(17, 34, 51, 0.2666666667) inset;
+  left: -50%;
 }
 .imageRoll i {
   position: absolute;
@@ -489,8 +489,11 @@ figure img {
   padding-inline: 100px 25px;
   z-index: -1;
   font-size: 32px;
-  width: 200px;
+  min-width: 300px;
+  font-size: 1.5em;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 .imageRoll > figcaption strong {
   display: block;
