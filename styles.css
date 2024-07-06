@@ -42,7 +42,7 @@ figure:nth-child(6) {
   --imageUrl: url("/happy-birthday/photos/image\ \(11\).jpg");
 }
 figure:nth-child(8){
-  --imageUrl: url("/happy-birthday /photos/image\ \(12\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(12\).jpg");
 }
 figure:nth-child(9) {
   --imageUrl: url("/happy-birthday/photos/image\ \(17\).jpg");
