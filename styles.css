@@ -20,22 +20,22 @@ figure {
   perspective: 900px;
 }
 figure:nth-child(1) {
-  --imageUrl: url("/photos/image\ \(6\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(6\).jpg");
 }
 figure:nth-child(2) {
-  --imageUrl: url("/photos/image\ \(7\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(7\).jpg");
 }
 figure:nth-child(3) {
-  --imageUrl: url("/photos/image\ \(14\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(14\).jpg");
 }
 figure:nth-child(4) {
-  --imageUrl: url("/photos/image\ \(4\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(4\).jpg");
 }
 figure:nth-child(5) {
-  --imageUrl: url("/photos/image\ \(9\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(9\).jpg");
 }
 figure:nth-child(6) {
-  --imageUrl: url("/photos/image\ \(5\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(5\).jpg");
 }
 figure img {
   width: 100%;
