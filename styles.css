@@ -7,6 +7,7 @@
 
 
 .gallery {
+  
   display: grid;
   grid-gap: 50px;
   grid-template-columns: repeat(auto-fit, 300px);
@@ -26,16 +27,28 @@ figure:nth-child(2) {
   --imageUrl: url("/happy-birthday/photos/image\ \(7\).jpg");
 }
 figure:nth-child(3) {
-  --imageUrl: url("/happy-birthday/photos/image\ \(14\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(1\).jpg");
 }
 figure:nth-child(4) {
+  --imageUrl: url("/happy-birthday/photos/image\ \(14\).jpg");
+}
+figure:nth-child(7) {
   --imageUrl: url("/happy-birthday/photos/image\ \(4\).jpg");
 }
 figure:nth-child(5) {
-  --imageUrl: url("/happy-birthday/photos/image\ \(9\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(19\).jpg");
 }
 figure:nth-child(6) {
-  --imageUrl: url("/happy-birthday/photos/image\ \(5\).jpg");
+  --imageUrl: url("/happy-birthday/photos/image\ \(11\).jpg");
+}
+figure:nth-child(8){
+  --imageUrl: url("/happy-birthday /photos/image\ \(12\).jpg");
+}
+figure:nth-child(9) {
+  --imageUrl: url("/happy-birthday/photos/image\ \(17\).jpg");
+}
+figure:nth-child(10) {
+  --imageUrl: url("/happy-birthday/photos/image\(33\).jpg");
 }
 figure img {
   width: 100%;
